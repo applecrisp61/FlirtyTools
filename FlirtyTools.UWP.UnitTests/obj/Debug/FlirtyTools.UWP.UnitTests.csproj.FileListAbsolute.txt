@@ -1,0 +1,7 @@
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.UWP.UnitTests\bin\Debug\FlirtyTools.UWP.UnitTests.dll
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.UWP.UnitTests\bin\Debug\FlirtyTools.UWP.UnitTests.pdb
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.UWP.UnitTests\bin\Debug\nunit.framework.dll
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.UWP.UnitTests\bin\Debug\nunit.framework.xml
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.UWP.UnitTests\obj\Debug\FlirtyTools.UWP.UnitTests.csprojResolveAssemblyReference.cache
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.UWP.UnitTests\obj\Debug\FlirtyTools.UWP.UnitTests.dll
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.UWP.UnitTests\obj\Debug\FlirtyTools.UWP.UnitTests.pdb

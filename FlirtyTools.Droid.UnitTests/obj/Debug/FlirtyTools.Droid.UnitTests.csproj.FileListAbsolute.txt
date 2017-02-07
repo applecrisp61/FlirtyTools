@@ -1,0 +1,14 @@
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.Droid.UnitTests\bin\Debug\FlirtyTools.Droid.UnitTests.dll
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.Droid.UnitTests\bin\Debug\FlirtyTools.Droid.UnitTests.pdb
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.Droid.UnitTests\bin\Debug\FlirtyTools.Droid.UnitTests.FlirtyTools.Droid.UnitTests.apk
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.Droid.UnitTests\bin\Debug\FlirtyTools.Droid.UnitTests.FlirtyTools.Droid.UnitTests-Signed.apk
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.Droid.UnitTests\obj\Debug\FlirtyTools.Droid.UnitTests.csprojResolveAssemblyReference.cache
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.Droid.UnitTests\obj\Debug\FlirtyTools.Droid.UnitTests.dll
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.Droid.UnitTests\obj\Debug\FlirtyTools.Droid.UnitTests.pdb
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.Droid.UnitTests\obj\Debug\android\bin\FlirtyTools.Droid.UnitTests.FlirtyTools.Droid.UnitTests.apk
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.Droid.UnitTests\obj\Debug\res\drawable\icon.png
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.Droid.UnitTests\obj\Debug\res\values\strings.xml
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.Droid.UnitTests\obj\Debug\R.cs.flag
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.Droid.UnitTests\obj\Debug\uploadflags.txt
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.Droid.UnitTests\obj\Debug\FlirtyTools.Droid.UnitTests.dll.mdb
+C:\dev\XplatTools\FlirtyTools\FlirtyTools.Droid.UnitTests\bin\Debug\FlirtyTools.Droid.UnitTests.dll.mdb
