@@ -90,7 +90,7 @@
   <ItemGroup>
     <Compile Include="DeviceLocationSvcMgr.cs" />
     <Compile Include="Main.cs" />
-    <Compile Include="AppDelegate.cs" />
+    <Compile Include="FlirtyToolsDelegate.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist">
       <SubType>Designer</SubType>

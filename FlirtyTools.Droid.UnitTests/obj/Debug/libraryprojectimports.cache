@@ -2,13 +2,13 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>C:\dev\XplatTools\FlirtyTools\FlirtyTools.Droid.UnitTests\obj\Debug\__library_projects__\Xamarin.Android.NUnitLite\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/development/FlirtyTools/FlirtyTools.Droid.UnitTests/obj/Debug/__library_projects__/Xamarin.Android.NUnitLite/library_project_imports/res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Android.NUnitLite\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Android.NUnitLite/library_project_imports/assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>C:\dev\XplatTools\FlirtyTools\FlirtyTools.Droid.UnitTests\obj\Debug\__library_projects__\Xamarin.Android.NUnitLite.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/development/FlirtyTools/FlirtyTools.Droid.UnitTests/obj/Debug/__library_projects__/Xamarin.Android.NUnitLite.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

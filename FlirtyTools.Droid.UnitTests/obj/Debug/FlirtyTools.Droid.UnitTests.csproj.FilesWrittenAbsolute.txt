@@ -1,0 +1,12 @@
+/Users/development/FlirtyTools/FlirtyTools.Droid.UnitTests/obj/Debug/MonoAndroid,Version=v6.0.AssemblyAttribute.cs
+/Users/development/FlirtyTools/FlirtyTools.Droid.UnitTests/bin/Debug/FlirtyTools.Droid.UnitTests.dll.mdb
+/Users/development/FlirtyTools/FlirtyTools.Droid.UnitTests/bin/Debug/FlirtyTools.Droid.UnitTests.dll
+/Users/development/FlirtyTools/FlirtyTools.Droid.UnitTests/bin/Debug/FlirtyTools.Droid.UnitTests.FlirtyTools.Droid.UnitTests.apk
+/Users/development/FlirtyTools/FlirtyTools.Droid.UnitTests/obj/Debug/android/bin/FlirtyTools.Droid.UnitTests.FlirtyTools.Droid.UnitTests.apk
+/Users/development/FlirtyTools/FlirtyTools.Droid.UnitTests/obj/Debug/res/drawable/icon.png
+/Users/development/FlirtyTools/FlirtyTools.Droid.UnitTests/obj/Debug/res/values/strings.xml
+/Users/development/FlirtyTools/FlirtyTools.Droid.UnitTests/obj/Debug/R.cs.flag
+/Users/development/FlirtyTools/FlirtyTools.Droid.UnitTests/bin/Debug/FlirtyTools.Droid.UnitTests.FlirtyTools.Droid.UnitTests-Signed.apk
+/Users/development/FlirtyTools/FlirtyTools.Droid.UnitTests/obj/Debug/uploadflags.txt
+/Users/development/FlirtyTools/FlirtyTools.Droid.UnitTests/obj/Debug/FlirtyTools.Droid.UnitTests.dll
+/Users/development/FlirtyTools/FlirtyTools.Droid.UnitTests/obj/Debug/FlirtyTools.Droid.UnitTests.dll.mdb

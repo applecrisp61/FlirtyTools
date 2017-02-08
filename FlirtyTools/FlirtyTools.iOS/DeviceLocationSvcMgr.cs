@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 using CoreLocation;
 using Foundation;
-using UIKit;
 
 using Xamarin.Forms;
 
@@ -63,6 +62,8 @@ namespace FlirtyTools.iOS {
 
         public event EventHandler<IDeviceLocationUpdatedEventArgs> DeviceLocationUpdated;
 
+		public event EventHandler<CLAuthorizationChangedEventArgs> DeviceAuthorizationChanged;
+
         private readonly CLLocationManager _mgr = new CLLocationManager();
 
         // DOCUMENTATION: Measurements[] array
@@ -75,10 +76,12 @@ namespace FlirtyTools.iOS {
         // Constructor
         public DeviceLocationSvcMgr() {
 
+			/* DCL: This should be handled by my calling code 
             // Request authorization for iOS 8 and above.
             if (UIDevice.CurrentDevice.CheckSystemVersion(8, 0)) {
                 _mgr.RequestAlwaysAuthorization();
             }
+			*/
 
             _mgr.LocationsUpdated += (sender, args) => {
                 var deviceLocations = new List<DeviceLocation>();
@@ -89,7 +92,7 @@ namespace FlirtyTools.iOS {
                         Longitude = location.Coordinate.Longitude,
                         DateTimeStamp = NsDateToDateTime(location.Timestamp),
                         Elevation = location.Altitude,
-                        BuildingFloor = (int?) location.Floor.Level,
+                        BuildingFloor = -1, // Need to figure out how to work with the Apple Floor variable
                         Speed = location.Speed,
                         Bearing = location.Course,
                         HorizontalAccuracy = location.HorizontalAccuracy,
@@ -102,7 +105,15 @@ namespace FlirtyTools.iOS {
                 // We have now transformed the iOS to our local cross-platform form... throw the local form
                 var deviceArgs = new DeviceLocationUpdatedEventArgs(deviceLocations);
                 DeviceLocationUpdated?.Invoke(this, deviceArgs);
+
             };
+
+			// Wrapper to rethrow the Native iOS AuthorizationChanged event (though I am handling it
+			// via C# style events rather than Apple's delegate-object pattern
+			_mgr.AuthorizationChanged += (sender, e) => {
+				DeviceAuthorizationChanged?.Invoke(this, e);
+			};
+
         }
 
         // Utility helpers
