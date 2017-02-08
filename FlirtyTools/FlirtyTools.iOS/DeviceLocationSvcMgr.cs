@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 
 using CoreLocation;
 using Foundation;
 using UIKit;
 
-[assembly: Dependency(typeof(FlirtyTools.DeviceLocationSvcMgr)), InternalsVisibleTo("FlirtyTools.iOS.UnitTests")]
+using Xamarin.Forms;
+
+[assembly: Dependency(typeof(FlirtyTools.DeviceLocationSvcMgr))]
 namespace FlirtyTools.iOS {
     public class DeviceLocationSvcMgr : ILocationServicesManager {
 
