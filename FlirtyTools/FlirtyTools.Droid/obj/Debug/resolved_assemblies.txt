@@ -51,6 +51,7 @@
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/obj/Debug/android/assets/System.Runtime.InteropServices.dll
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/obj/Debug/android/assets/System.ComponentModel.Composition.dll
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/obj/Debug/android/assets/FlirtyLocation.dll
+/Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/obj/Debug/android/assets/Microsoft.WindowsAzure.Mobile.dll
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/obj/Debug/android/assets/System.Resources.ResourceManager.dll
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/obj/Debug/android/assets/Newtonsoft.Json.dll
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/obj/Debug/android/assets/System.Xml.XDocument.dll
@@ -59,7 +60,6 @@
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/obj/Debug/android/assets/System.Text.Encoding.Extensions.dll
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/obj/Debug/android/assets/Microsoft.CSharp.dll
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/obj/Debug/android/assets/Mono.CSharp.dll
-/Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/obj/Debug/android/assets/Microsoft.WindowsAzure.Mobile.dll
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/obj/Debug/android/assets/System.Net.Primitives.dll
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/obj/Debug/android/assets/System.Diagnostics.Tools.dll
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/obj/Debug/android/assets/System.Net.Http.Primitives.dll

@@ -47,6 +47,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestConstants.cs" />
     <Compile Include="Toolkit.cs" />
+    <Compile Include="LocationMeasurementsPacketReadyEventArgs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />

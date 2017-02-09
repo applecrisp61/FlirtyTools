@@ -7,7 +7,7 @@ namespace FlirtyTools {
     public class LocationTracker {
 
         public event EventHandler<LocationMeasurementsUpdatedEventArgs> MeasurementsUpdated;
-        public event EventHandler<IEnumerable<LocationMeasurement>> LocationMeasurementPacketReady;
+		public event EventHandler<LocationMeasurementsPacketReadyEventArgs> LocationMeasurementPacketReady;
 
         public void StartTracking() {
             _mgr.StartUpdatingLocation();
@@ -16,6 +16,14 @@ namespace FlirtyTools {
         public void StopTracking() {
             _mgr.StopUpdatingLocation();
         }
+
+		public void RequestLocation() {
+			_mgr.RequestLocation();
+		}
+
+		public void RequestAlwaysAuthorization() {
+			_mgr.RequestAlwaysAuthorization();
+		}
 
         public LocationTracker(ILocationServicesManager mgr,
             int trackid, string trackname, int userid, string username, string provider, bool isfake) {
@@ -38,13 +46,17 @@ namespace FlirtyTools {
                     _locationMeasurementsPacket.Add(measurement);
                 }
 
-                if (_locationMeasurementsPacket.Count > PacketReadySize) {
-                    LocationMeasurementPacketReady?.Invoke(this, _locationMeasurementsPacket); // Send if someone is listening
-                    _locationMeasurementsPacket.Clear(); // Clear irrespective of having a listener
+                if (_locationMeasurementsPacket.Count >= PacketReadySize) {
+					if (LocationMeasurementPacketReady != null) {
+						// Prepare and send if someone is listening
+						var packetAsArgs = new LocationMeasurementsPacketReadyEventArgs(_locationMeasurementsPacket);
+						LocationMeasurementPacketReady.Invoke(this, packetAsArgs); 
+					}
+					// Clear irrespective of having a listenerß
+                    _locationMeasurementsPacket.Clear(); 
                 }
             };
         }
-
 
         // INTERNAL IMPLEMENTATION: Eventhing here and below should be private or internal (TOOD :)
         private readonly ILocationServicesManager _mgr;

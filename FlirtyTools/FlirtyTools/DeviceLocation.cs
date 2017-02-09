@@ -1,5 +1,7 @@
 ﻿using System;
 
+using FlirtyLocation;
+
 
 namespace FlirtyTools {
     public class DeviceLocation {
@@ -15,5 +17,9 @@ namespace FlirtyTools {
         public double? Bearing { get; set; }
         public double? HorizontalAccuracy { get; set; }
         public double? VerticalAccuracy { get; set; }
+
+		public override string ToString() {
+			return string.Format($"Device Location: {(new GeographicLocation(Latitude, Longitude)).ToString()} at {DateTimeStamp.ToLocalTime()}");
+		}
     }
 }

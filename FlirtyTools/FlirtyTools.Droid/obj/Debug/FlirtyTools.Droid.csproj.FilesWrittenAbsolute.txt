@@ -39,9 +39,9 @@
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/bin/Debug/FlirtyTools.pdb
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/bin/Debug/FlirtyLocation.dll
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/bin/Debug/FlirtyLocation.pdb
-/Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/bin/Debug/Newtonsoft.Json.dll
-/Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/bin/Debug/Newtonsoft.Json.xml
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/bin/Debug/Microsoft.WindowsAzure.Mobile.dll
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/bin/Debug/Microsoft.WindowsAzure.Mobile.xml
+/Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/bin/Debug/Newtonsoft.Json.dll
+/Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/bin/Debug/Newtonsoft.Json.xml
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/bin/Debug/System.Net.Http.Primitives.dll
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.Droid/bin/Debug/System.Net.Http.Primitives.xml

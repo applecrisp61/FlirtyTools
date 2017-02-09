@@ -49,9 +49,9 @@
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.iOS/bin/iPhone/Debug/FlirtyTools.pdb
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.iOS/bin/iPhone/Debug/FlirtyLocation.dll
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.iOS/bin/iPhone/Debug/FlirtyLocation.pdb
-/Users/development/FlirtyTools/FlirtyTools/FlirtyTools.iOS/bin/iPhone/Debug/Newtonsoft.Json.dll
-/Users/development/FlirtyTools/FlirtyTools/FlirtyTools.iOS/bin/iPhone/Debug/Newtonsoft.Json.xml
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.iOS/bin/iPhone/Debug/Microsoft.WindowsAzure.Mobile.dll
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.iOS/bin/iPhone/Debug/Microsoft.WindowsAzure.Mobile.xml
+/Users/development/FlirtyTools/FlirtyTools/FlirtyTools.iOS/bin/iPhone/Debug/Newtonsoft.Json.dll
+/Users/development/FlirtyTools/FlirtyTools/FlirtyTools.iOS/bin/iPhone/Debug/Newtonsoft.Json.xml
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.iOS/bin/iPhone/Debug/System.Net.Http.Primitives.dll
 /Users/development/FlirtyTools/FlirtyTools/FlirtyTools.iOS/bin/iPhone/Debug/System.Net.Http.Primitives.xml

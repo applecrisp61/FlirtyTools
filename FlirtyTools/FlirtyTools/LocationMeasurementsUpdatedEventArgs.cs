@@ -34,7 +34,7 @@ namespace FlirtyTools {
                 Longitude = loc.Longitude,
                 DateTimeStamp = loc.DateTimeStamp,
                 Provider = provider,
-                IsFromFakeProvider = isfake,
+                IsFromMockProvider = isfake,
                 Elevation = loc.Elevation,
                 BuildingFloor = loc.BuildingFloor,
                 Speed = loc.Speed,
